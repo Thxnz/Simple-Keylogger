@@ -12,7 +12,7 @@ class KeyLogger():
 
         self.log = "INITIALING...   "
 
-        # for not confliting!!
+        # To avoid conflict !!
         if os.path.exists("log.txt"):
             os.remove("log.txt")
         
